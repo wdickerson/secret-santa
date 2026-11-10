@@ -4,7 +4,9 @@ import babu_1 from './images/babu_1.png';
 import anca_1 from './images/anca_1.png';
 import paul_1 from './images/paul_1.png';
 import aliana_1 from './images/aliana_1.png';
+import will_1 from './images/will_1.png';
 import melanie_1 from './images/melanie_1.png';
+import logan_1 from './images/logan_1.png';
 import julie_1 from './images/julie_1.png';
 
 
@@ -14,7 +16,9 @@ const nameToImage = {
   Anca: anca_1,
   Paul: paul_1,
   Aliana: aliana_1,
+  Will: will_1,
   Melanie: melanie_1,
+  Logan: logan_1,
   Julie: julie_1,
 }
 

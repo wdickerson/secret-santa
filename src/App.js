@@ -10,13 +10,15 @@ const ROMANIAN = 'Crăciun fericit';
 
 
 const DRAWN_NAMES = {
-  Didi: 'Paul',
-  Babu: 'Anca',
-  Anca: 'Didi',
-  Paul: 'Babu',
-  Aliana: 'Julie',
-  Melanie: 'Aliana',
-  Julie: 'Melanie',
+  Didi: 'Julie',
+  Babu: 'Paul',
+  Anca: 'Melanie',
+  Paul: 'Aliana',
+  Aliana: 'Logan',
+  Will: 'Anca',
+  Melanie: 'Didi',
+  Logan: 'Will',
+  Julie: 'Babu',
 }
 
 function App() {
@@ -79,7 +81,9 @@ function App() {
         <NameRow name="Anca" onClick={() => onClickName('Anca', ENGLISH)}/>
         <NameRow name="Paul" onClick={() => onClickName('Paul', ENGLISH)}/>
         <NameRow name="Aliana" onClick={() => onClickName('Aliana', ENGLISH)}/>
+        <NameRow name="Will" onClick={() => onClickName('Will', ENGLISH)}/>
         <NameRow name="Melanie" onClick={() => onClickName('Melanie', ENGLISH)}/>
+        <NameRow name="Logan" onClick={() => onClickName('Logan', ENGLISH)}/>
         <NameRow name="Julie" onClick={() => onClickName('Julie', ENGLISH)}/>
       </div>
     );
