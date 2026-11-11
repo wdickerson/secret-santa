@@ -9,15 +9,15 @@ const ENGLISH = 'Merry Christmas'
 const ROMANIAN = 'Crăciun fericit';
 
 
-const DRAWN_NAMES = {
-  Didi: 'Julie',
-  Babu: 'Paul',
+export const DRAWN_NAMES = {
+  Didi: 'Logan',
+  Babu: 'Julie',
   Anca: 'Melanie',
-  Paul: 'Aliana',
-  Aliana: 'Logan',
-  Will: 'Anca',
-  Melanie: 'Didi',
-  Logan: 'Will',
+  Paul: 'Anca',
+  Aliana: 'Will',
+  Will: 'Didi',
+  Melanie: 'Aliana',
+  Logan: 'Paul',
   Julie: 'Babu',
 }
 
